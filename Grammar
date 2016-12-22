@@ -1,0 +1,139 @@
+% Kelley Tai, taikelle, 999809195 
+
+S -> I Perfect PastV %specific rules depending 
+S -> SinglePN PresentPerfect PastV
+VP -> PastV Adv
+VP -> PastV
+VP -> PastV PP
+
+VP -> PastV CP 
+VP -> PastV DP
+VP -> PastV DP
+VP -> PastV Adv PP
+VP -> Adv PastV PP 
+
+
+PresV -> PluralV %a verb can be present tense, and it can either by a plural present or a 
+PresV -> SingularV %singular present tense 
+
+
+%every case that is possible with each auxiliary/modal 
+%Single PN = singular proper noun
+%PluralV = a verb that is plural (works, dances)
+%Perf = perfect
+%WithGerund = attached to an -ing word
+
+VP -> WillPerf
+VP -> PastPerfPres 
+VP -> PastPerfFuture
+VP -> BeDoing
+VP -> PastPerf
+VP -> Pastaux Gerund
+VP -> PerfectPP
+VP -> WillPP
+VP -> PresV
+VP -> WithGerund 
+
+S -> SinglePN PluralV
+S -> SinglePN WithGerund
+S -> PluralPN Pastaux WithGerund
+S -> PluralPN SingularV
+S -> SingularPN WithGerund
+
+WithGerund -> Tobe Gerund
+WithGerund -> Tobe Adv Gerund
+
+PN -> I SingularV
+PN -> SinglePN
+PN -> PluralPN
+
+PerfectPP -> Perfect Adv PastV 
+PerfectPP -> Perfect PastV 
+
+PastPerfPres -> Perfect PastPerf
+
+WillPP -> Will Adv PresV
+WillPP -> Will PresV
+
+WillPerf -> Will Perfect Adv PastV  
+WillPerf -> Will Perfect PastV  
+
+BeDoing -> Will Be Gerund
+BeDoing -> Will Be Adv Gerund
+
+PastPerfPres -> Perfect PastPerf
+
+PastPerfFuture -> Will PastPerf 
+
+P -> PerfectPP
+
+PerfectPP -> Perfect PastV 
+
+PastPerf -> Perfect Been Adv Gerund
+PastPerf -> Perfect Been Gerund
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%subcategorization
+S -> PN VP %PN stands for Pronoun 
+S -> DP VP
+
+CP -> C S %recurisvely starts a new sentence
+
+DP -> Det NP 
+DP -> Det NP PP
+DP -> Det AdjP N
+D -> NP
+
+NP -> N PP 
+
+NP -> PP DP
+NP -> DP PP
+NP -> N CP
+NP -> PN CP
+NP -> N
+NP -> AdjP NP
+
+PP -> P DP 
+PP -> P PN
+PP -> P NP
+
+VP -> Adv VP
+VP -> V Adv
+VP -> V
+VP -> V PP
+VP -> V CP 
+VP -> V Adv PP
+VP -> Adv V PP 
+
+AdjP -> Adj AdjP
+AdjP -> Adj
+
+VP -> TV DP %TV stands for transitive verbs 
+VP -> TV NP
+VP -> TV PN
+VP -> TV PN PP 
+VP -> TV DP PP 
+VP -> TV PP DP
+VP -> TV PP PP
+VP -> TV P DP 
+VP -> TV PP
+
+%transitive verbs 
+VP -> Adv TV P DP	%puts adverb in the front of the sentence 
+VP -> Adv TV DP
+VP -> Adv TV PN PP 
+VP -> Adv TV DP PP 
+VP -> Adv TV PP DP
+VP -> Adv TV PP 
+VP -> Adv TV NP
+VP -> Adv TV VP
+VP -> TV Adv PP
+
+%ditransitive verbs 
+VP -> DTV PN VP 
+VP -> DTV DP PP
+VP -> DTV PN PP
+VP -> DTV DP DP

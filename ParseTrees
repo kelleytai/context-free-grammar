@@ -1,0 +1,466 @@
+% Kelley Tai, taikelle, 999809195 
+
+I could have been eating
+(S
+  (PN I)
+  (VP
+    (PastPerfFuture
+      (Will could)
+      (PastPerf (Perfect have) (Been been) (Gerund eating)))))
+
+They would have been dancing slowly
+(S
+  (PN (PluralPN they))
+  (VP
+    (PastPerfFuture
+      (Will could)
+      (PastPerf (Perfect have) (Been been) (Gerund dancing)))))
+
+They could have danced
+(S
+  (PN (PluralPN they))
+  (VP (WillPerf (Will could) (Perfect have) (PastV danced))))
+
+She might have been dancing
+(S
+  (PN she)
+  (VP
+    (PastPerfFuture
+      (Will might)
+      (PastPerf (Perfect have) (Been been) (Gerund dancing)))))
+(S
+  (PN (SinglePN she))
+  (VP
+    (PastPerfFuture
+      (Will might)
+      (PastPerf (Perfect have) (Been been) (Gerund dancing)))))
+
+she poops
+(S (SinglePN she) (PluralV poops))
+(S (PN she) (VP (PresV (PluralV poops))))
+(S (PN (SinglePN she)) (VP (PresV (PluralV poops))))
+
+I jump
+(S (PN I) (VP (PresV (SingularV jump))))
+
+he might have jumped
+(S
+  (PN he)
+  (VP (WillPerf (Will might) (Perfect have) (PastV jumped))))
+(S
+  (PN (SinglePN he))
+  (VP (WillPerf (Will might) (Perfect have) (PastV jumped))))
+
+you should have been eating
+(S
+  (PN you)
+  (VP
+    (PastPerfFuture
+      (Will should)
+      (PastPerf (Perfect have) (Been been) (Gerund eating)))))
+
+they are dancing
+(S (PN (PluralPN they)) (VP (Pastaux are) (Gerund dancing)))
+
+I am pooping
+(S (I I) (WithGerund (Tobe am) (Gerund pooping)))
+
+you can dance slowly
+(S
+  (PN you)
+  (VP (WillPP (Will can) (PresV (SingularV dance))))
+  (Adv slowly))
+
+Nadia left immediately 
+(S (PN Nadia) (VP (V left) (Adv immediately)))
+
+she arrived
+(S (PN she) (VP (V arrived)))
+
+they is dancing
+No parses
+
+they might can dance
+No parses
+
+they will be dance
+No parses
+
+Nadia will left
+No parses 
+
+Nadia has could leave
+No parses
+
+you can has been eating
+No parses
+
+they eating
+No parses
+
+Nadia might left
+No parses
+
+they been dance
+No parses
+
+you might has eating
+No parses
+
+the cat wtih the long soft fur slowly ate
+(S
+  (DP
+    (Det the)
+    (NP
+      (DP (NP (N cat)))
+      (PP
+        (P with)
+        (DP (Det the) (AdjP (Adj long) (AdjP (Adj soft))) (N fur)))))
+  (VP (Adv slowly) (VP (V ate))))
+(S
+  (DP
+    (Det the)
+    (NP
+      (DP (NP (N cat)))
+      (PP
+        (P with)
+        (DP
+          (Det the)
+          (NP (AdjP (Adj long) (AdjP (Adj soft))) (NP (N fur)))))))
+  (VP (Adv slowly) (VP (V ate))))
+(S
+  (DP
+    (Det the)
+    (NP
+      (DP (NP (N cat)))
+      (PP
+        (P with)
+        (DP
+          (Det the)
+          (NP (AdjP (Adj long)) (NP (AdjP (Adj soft)) (NP (N fur))))))))
+  (VP (Adv slowly) (VP (V ate))))
+(S
+  (DP
+    (Det the)
+    (NP
+      (N cat)
+      (PP
+        (P with)
+        (DP (Det the) (AdjP (Adj long) (AdjP (Adj soft))) (N fur)))))
+  (VP (Adv slowly) (VP (V ate))))
+(S
+  (DP
+    (Det the)
+    (NP
+      (N cat)
+      (PP
+        (P with)
+        (DP
+          (Det the)
+          (NP (AdjP (Adj long) (AdjP (Adj soft))) (NP (N fur)))))))
+  (VP (Adv slowly) (VP (V ate))))
+(S
+  (DP
+    (Det the)
+    (NP
+      (N cat)
+      (PP
+        (P with)
+        (DP
+          (Det the)
+          (NP (AdjP (Adj long)) (NP (AdjP (Adj soft)) (NP (N fur))))))))
+  (VP (Adv slowly) (VP (V ate))))
+(S
+  (DP
+    (NP
+      (DP (Det the) (NP (N cat)))
+      (PP
+        (P with)
+        (DP (Det the) (AdjP (Adj long) (AdjP (Adj soft))) (N fur)))))
+  (VP (Adv slowly) (VP (V ate))))
+(S
+  (DP
+    (NP
+      (DP (Det the) (NP (N cat)))
+      (PP
+        (P with)
+        (DP
+          (Det the)
+          (NP (AdjP (Adj long) (AdjP (Adj soft))) (NP (N fur)))))))
+  (VP (Adv slowly) (VP (V ate))))
+(S
+  (DP
+    (NP
+      (DP (Det the) (NP (N cat)))
+      (PP
+        (P with)
+        (DP
+          (Det the)
+          (NP (AdjP (Adj long)) (NP (AdjP (Adj soft)) (NP (N fur))))))))
+  (VP (Adv slowly) (VP (V ate))))
+(S
+  (DP
+    (Det the)
+    (NP (N cat))
+    (PP
+      (P with)
+      (DP (Det the) (AdjP (Adj long) (AdjP (Adj soft))) (N fur))))
+  (VP (Adv slowly) (VP (V ate))))
+(S
+  (DP
+    (Det the)
+    (NP (N cat))
+    (PP
+      (P with)
+      (DP
+        (Det the)
+        (NP (AdjP (Adj long) (AdjP (Adj soft))) (NP (N fur))))))
+  (VP (Adv slowly) (VP (V ate))))
+(S
+  (DP
+    (Det the)
+    (NP (N cat))
+    (PP
+      (P with)
+      (DP
+        (Det the)
+        (NP (AdjP (Adj long)) (NP (AdjP (Adj soft)) (NP (N fur)))))))
+  (VP (Adv slowly) (VP (V ate)))
+
+
+
+Nadia gave Ross the flowers
+(S
+  (PN they)
+  (VP
+    (DTV told)
+    (PN her)
+    (VP (V jump) (PP (P onto) (DP (Det the) (NP (N elephant)))))))
+
+she really wanted to help 
+(S (PN she) (VP (Adv really) (TV wanted) (PP (P to) (NP (N help)))))
+(S
+  (PN she)
+  (VP (Adv really) (TV wanted) (PP (P to) (DP (NP (N help))))))
+(S
+  (PN she)
+  (VP (Adv really) (VP (TV wanted) (PP (P to) (NP (N help))))))
+(S
+  (PN she)
+  (VP (Adv really) (VP (TV wanted) (PP (P to) (DP (NP (N help)))))))
+(S
+  (PN she)
+  (VP (Adv really) (VP (TV wanted) (P to) (DP (NP (N help))))))
+(S (PN she) (VP (Adv really) (TV wanted) (P to) (DP (NP (N help)))))
+(S
+  (PN she)
+  (VP (Adv really) (TV wanted) (VP (Adv to) (VP (V help)))))
+
+she really wanted help 
+(S (PN she) (VP (Adv really) (TV wanted) (NP (N help))))
+(S (PN she) (VP (Adv really) (VP (TV wanted) (NP (N help)))))
+(S (PN she) (VP (Adv really) (VP (TV wanted) (DP (NP (N help))))))
+(S (PN she) (VP (Adv really) (TV wanted) (DP (NP (N help)))))
+(S (PN she) (VP (Adv really) (TV wanted) (VP (V help))))
+
+they told her to jump onto the elephant 
+(S
+  (PN they)
+  (VP
+    (DTV told)
+    (PN her)
+    (VP
+      (Adv to)
+      (V jump)
+      (PP (P onto) (DP (Det the) (NP (N elephant)))))))
+(S
+  (PN they)
+  (VP
+    (DTV told)
+    (PN her)
+    (VP
+      (Adv to)
+      (VP (V jump) (PP (P onto) (DP (Det the) (NP (N elephant))))))))
+
+cheese was always on the menu
+(S
+  (DP (NP (N cheese)))
+  (VP (V was) (Adv always) (PP (P on) (DP (Det the) (NP (N menu))))))
+(S
+  (DP (NP (N cheese)))
+  (VP (TV was) (Adv always) (PP (P on) (DP (Det the) (NP (N menu))))))
+
+the eggplant reminded Nadia of Ross
+(S
+  (DP (Det the) (NP (N eggplant)))
+  (VP (TV reminded) (PN Nadia) (PP (P of) (PN Ross))))
+(S
+  (DP (Det the) (NP (N eggplant)))
+  (VP (DTV reminded) (PN Nadia) (PP (P of) (PN Ross))))
+
+Nadia rewarded the man with an eggplant
+(S
+  (PN Nadia)
+  (VP
+    (TV rewarded)
+    (DP
+      (Det the)
+      (NP
+        (DP (NP (N man)))
+        (PP (P with) (DP (Det an) (NP (N eggplant))))))))
+(S
+  (PN Nadia)
+  (VP
+    (TV rewarded)
+    (DP
+      (Det the)
+      (NP (N man) (PP (P with) (DP (Det an) (NP (N eggplant))))))))
+(S
+  (PN Nadia)
+  (VP
+    (TV rewarded)
+    (DP
+      (NP
+        (DP (Det the) (NP (N man)))
+        (PP (P with) (DP (Det an) (NP (N eggplant))))))))
+(S
+  (PN Nadia)
+  (VP
+    (TV rewarded)
+    (DP
+      (Det the)
+      (NP (N man))
+      (PP (P with) (DP (Det an) (NP (N eggplant)))))))
+(S
+  (PN Nadia)
+  (VP
+    (TV rewarded)
+    (DP (Det the) (NP (N man)))
+    (PP (P with) (DP (Det an) (NP (N eggplant))))))
+(S
+  (PN Nadia)
+  (VP
+    (DTV rewarded)
+    (DP (Det the) (NP (N man)))
+    (PP (P with) (DP (Det an) (NP (N eggplant))))))
+(S
+  (PN Nadia)
+  (VP
+    (TV rewarded)
+    (NP
+      (DP (Det the) (NP (N man)))
+      (PP (P with) (DP (Det an) (NP (N eggplant)))))))
+
+Nadia won an elephant 
+(S (PN Nadia) (VP (TV won) (DP (Det an) (NP (N elephant)))))
+
+flowers always reminded her of Ross
+(S
+  (DP (NP (N flowers)))
+  (VP (Adv always) (TV reminded) (PN her) (PP (P of) (PN Ross))))
+(S
+  (DP (NP (N flowers)))
+  (VP (Adv always) (VP (TV reminded) (PN her) (PP (P of) (PN Ross)))))
+(S
+  (DP (NP (N flowers)))
+  (VP
+    (Adv always)
+    (VP (DTV reminded) (PN her) (PP (P of) (PN Ross)))))
+(S
+  (DP (NP (N flowers)))
+  (VP
+    (Adv always)
+    (TV reminded)
+    (VP (DTV ) (PN her) (PP (P of) (PN Ross)))))
+
+Ross brought the poodle fish for pretty flowers
+(S
+  (PN Ross)
+  (VP
+    (DTV brought)
+    (DP (Det the) (NP (N poodle)))
+    (DP
+      (NP
+        (DP (NP (N fish)))
+        (PP (P for) (NP (AdjP (Adj pretty)) (NP (N flowers))))))))
+(S
+  (PN Ross)
+  (VP
+    (DTV brought)
+    (DP (Det the) (NP (N poodle)))
+    (DP
+      (NP
+        (DP (NP (N fish)))
+        (PP (P for) (DP (NP (AdjP (Adj pretty)) (NP (N flowers)))))))))
+(S
+  (PN Ross)
+  (VP
+    (DTV brought)
+    (DP (Det the) (NP (N poodle)))
+    (DP
+      (NP
+        (N fish)
+        (PP (P for) (NP (AdjP (Adj pretty)) (NP (N flowers))))))))
+(S
+  (PN Ross)
+  (VP
+    (DTV brought)
+    (DP (Det the) (NP (N poodle)))
+    (DP
+      (NP
+        (N fish)
+        (PP (P for) (DP (NP (AdjP (Adj pretty)) (NP (N flowers)))))))))
+
+The handsome poodle brought Ross to the autoclave
+(S
+  (DP (Det the) (AdjP (Adj handsome)) (N poodle))
+  (VP
+    (TV brought)
+    (PN Ross)
+    (PP (P to) (DP (Det the) (NP (N autoclave))))))
+(S
+  (DP (Det the) (NP (AdjP (Adj handsome)) (NP (N poodle))))
+  (VP
+    (TV brought)
+    (PN Ross)
+    (PP (P to) (DP (Det the) (NP (N autoclave))))))
+(S
+  (DP (Det the) (AdjP (Adj handsome)) (N poodle))
+  (VP
+    (DTV brought)
+    (PN Ross)
+    (PP (P to) (DP (Det the) (NP (N autoclave))))))
+(S
+  (DP (Det the) (NP (AdjP (Adj handsome)) (NP (N poodle))))
+  (VP
+    (DTV brought)
+    (PN Ross)
+    (PP (P to) (DP (Det the) (NP (N autoclave))))))
+
+
+I brought
+No parses
+
+Nadia with the long suft fur slowly ate
+No parses
+
+the flowers fondled slowly told her
+No parses
+
+with flowers the fur really cat
+No parses
+
+the cat with the tall her arrived
+No parses
+
+Ross danced the eggplant
+No parses 
+
+The flowers slowly the park
+No parses
+
+she gave the park
+No parses
+
+they told to jump onto the elephant
+No parses

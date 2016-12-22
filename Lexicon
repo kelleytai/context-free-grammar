@@ -1,0 +1,52 @@
+%Kelley Tai, taikelle, 999809195, 
+
+Been -> "been"
+
+Will -> "will" | "could" | "might" | "may" | "would" | "can" | "should" |"must"
+
+PresentPerfect -> "has"
+
+Perfect -> "have" | "had"
+
+Tobe -> "was" | "am" 
+
+Pastaux -> "were" | "are"
+
+Is -> "is"
+
+Be -> "be"
+
+I -> "I" | "you"
+
+SinglePN -> "it" | "she" | "he"  
+
+PluralPN -> "they"
+
+PluralV -> "leaves" | "poops"
+
+SingularV -> "leave" | "jump" | "dance" 
+
+Gerund -> "dancing" | "pooping" | "eating"
+
+PastV -> "left" | "ate" | "arrived" | "jumped" | "believed" | "helped" |"danced" | "pooped" |"were" | "arrived"
+
+
+PN -> "Nadia" | "she" | "I" | "Ross" | "they" | "her" | "him" | "he" |"it" |"we" | "us" | "them" | "you" | "Nadia" | "Marseilles" | "Google"
+
+V -> "left" | "ate" | "arrived" | "jumped" | "jump" | "believed" | "help" |"dance" | "was" | "is" | "like" | "danced" | "helped" | "eat"
+
+Adv -> "immediately" | "slowly" | "already" | "to" | "really" | "always" | "by" | "has" | "have" | "had" | "before" | "after" 
+
+Det -> "the"  | "her" | "a" | "my" | "an" | "that"
+
+N -> "cat" | "fur" | "fish" | "poodle" | "autoclave" | "eggplant" | "package" | "cheese" | "elephant" | "hovercraft" | "help" | "menu" | "flowers" | "boat" | "poop" | "park" | "rutabaga" | "man" | "hovercrafts" | "autopoiesis" | "petals"
+
+P -> "with" | "to" | "for" | "onto" | "on" | "of" |"in" |"by" | "from" 
+
+Adj -> "long" | "soft" | "tall" | "handsome" | "pretty" | "pink"
+
+TV ->  "fondled" | "fondle" | "was" | "found" | "wanted" | "reminded" | "arrived" | "saw" | "left" | "wanted" | "won" | "be" | "arrive" | "leave" | "found"| "find" | "demanded" | "demand" | "rewarded" | "reward" | "reminded" | "remind" | "helped" | "help" | "wanted"| "want" | "saw" | "see" | "won"| "win" |"believed" | "believe" |"told" |"tell" | "brought" |"bring" | "shot" |"shoot"
+
+DTV -> "told" | "brought" | "reminded" | "rewarded" | "left" | "gave"| "give" | "found" | "find" | "demanded" | "demand" | "reward" |
+
+C -> "that" 

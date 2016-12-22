@@ -1,0 +1,101 @@
+% Kelley Tai, taikelle, 999809195
+
+%correct parses for auxiliary
+Nadia will leave
+Nadia has left
+Nadia may have been leaving
+I ate
+I eat
+I will eat
+I had eaten
+I have eaten
+I will have ate
+I was eating
+I am eating
+I will be eating
+I had been eating
+I have been eating
+I will have been eating
+I could have been eating
+I must have been eating
+he ate
+he eats
+he will eat
+he had ate
+he has ate
+he will have ate
+he was eating
+he is eating
+he will be eating
+he had been eating
+he has been eating
+he will have been eating
+he may have been eating
+he might have been eating
+they ate
+they eat
+they will eat
+they had ate
+they have ate
+they will have ate
+they were eating
+they are eating
+they will be eating
+they had been eating
+you have been eating
+they will have been eating
+you should have been eating
+they would have been eating
+
+%no parses for subcategorization 
+I dances
+they might can dance
+they will be dance
+Nadia will left
+Nadia has could leave
+cat jumped
+you can has been eating
+they eating
+Nadia might left
+they been dance
+you might has eating
+Nadia can been dance
+they can have might danced
+they is dancing
+
+
+%correct parses for subcategorization 
+Nadia left immediately
+the cat with the long soft fur slowly ate
+she arrived
+Nadia gave the flowers to Ross
+they told her jump onto the elephant
+she believed that Ross already was on the hovercraft
+the handsome poodle brought Ross to the autoclave 
+Nadia brought a package for the cheese 
+they told her to jump onto the elephant 
+she really wanted help 
+she really wanted to help 
+cheese was always on the menu 
+the eggplant reminded Nadia of Ross 
+Nadia rewarded the man with the eggplant
+Nadia won an elephant
+flowers always reminded her of Ross
+Ross rewarded the menu by the park in the hovercrafts
+Ross bought the poodle fish for pretty flowers
+the pretty flowers found the eggplant
+
+
+%noparses for subcategorization 
+I brought 
+Nadia with the long suft fur slowly ate
+the flowers fondled slowly told her
+with flowers the fur really cat
+Ross danced the eggplant
+The flowers slowly the park
+the cat with the tall her arrived
+she gave the park
+they eat her to the eggplant
+the flowers petals
+Nadia saw eat her
+they told to jump onto the elephant
