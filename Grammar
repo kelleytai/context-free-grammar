@@ -1,4 +1,4 @@
-% Kelley Tai, taikelle, 999809195 
+% Context-free grammar
 
 S -> I Perfect PastV %specific rules depending 
 S -> SinglePN PresentPerfect PastV
